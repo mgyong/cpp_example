@@ -3,7 +3,8 @@
 // CPPExample, but those modules could also import a c-module. The clang compiler
 // is only able to operate in one mode or the other. Thus, you can only
 // depend on modules compiled in one form or the other.
-@_implementationOnly import CPPExample
+//@_implementationOnly import CPPExample
+import CPPExample
 
 extension SwiftMyStruct {
   mutating func dump() {
